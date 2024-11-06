@@ -86,6 +86,9 @@
     br{
         display: none;
     }
+    .ca-logo img{
+        width: 200px;
+    }
     .ml-50 {
         margin-left: 0px;
     }
@@ -604,6 +607,74 @@
 
 
 /* Extra small Device */
+@media (max-width: 480px){
+    .ca-logo img{
+        width: 160px;
+    padding: 4px 0px;
+    }
+    .ca-offcanvas-logo img{
+        width: 160px;
+    }
+    .pt-24 {
+        padding-top: 10px;
+    }
+    .ca-about-icon-box {
+        border-bottom: 1px solid #E8E6E6;
+        padding-bottom: 15px;
+        margin-bottom: 25px;
+    }
+    .button-71{
+        padding: 7px 20px;
+    }
+    .ca-testimonials {
+        margin-bottom: 40px;
+        position: relative;
+    }
+    .test-3-title a{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 1024px){
+    .ca-logo img{
+        width: 180px;
+    }
+    .ca-main-menu ul li > a {
+        color: #1B0901;
+        padding: 0px 7px;
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .ca-btn-primary {
+        display: inline-block;
+        font-weight: 700;
+        padding: 7px 10px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .ca-btn-primary span {
+        background: #7e7e7e;
+        height: 25px;
+        width: 25px;
+        display: inline-block;
+        line-height: 25px;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 6px;
+    }
+    .ca-section-title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .mb-20 {
+        margin-bottom: 12px;
+    }
+    .ca-contact-shape-img1 img {
+        height: 593px;
+    }
+    .ca-contact-from textarea {
+        height: 100px;
+    }
+}
 @media (max-width: 767px){
     br{
         display: none;
@@ -715,7 +786,7 @@
     /* header  3 */
     .ca-offcanvas-toogle {
         border: 1px solid;
-        padding: 5px 8px;
+        padding: 3px 4px;
         border-radius: 7px;
     }
     .header-3 {
@@ -1134,7 +1205,7 @@
 
     /* contact form css 1 */
     .ca-contact-area {
-        height: 898px;
+        /* height: 898px; */
     }
     .ca-contact {
         padding-top: 60px;
