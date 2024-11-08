@@ -633,10 +633,27 @@
     .test-3-title a{
         margin-top: 10px;
     }
+    .text-div {
+        width: 108%;
+        margin-left: -8%;
+        text-align: left;
+        margin-bottom: -4%;
+    }
+    .ca-logo img {
+        width: 140px;
+    }
+    .mob-none{
+        display: none;
+    }
+    .text-div h2 {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 26px;
+    }
 }
 @media (max-width: 1024px){
     .ca-logo img{
-        width: 180px;
+        width: 140px;
     }
     .ca-main-menu ul li > a {
         color: #1B0901;
@@ -799,12 +816,12 @@
     }
     .header-3 .ca-offcanvas-toogle {
         border: 1px solid #02000E;
-        padding: 5px 8px;
+        padding: 1px 4px;
         border-radius: 7px;
     }
 
     .header-area-3.stiky {
-        position: fixed;
+        position: relative;
         z-index: 9;
         background: #fff;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -812,7 +829,7 @@
     
     .header-area-3.stiky .header-3 {
         box-shadow: none;
-        padding: 15px 0;
+        padding: 1px 0;
     }
     .ca-slider-active-3 .slick-dots {
         display: none !important;

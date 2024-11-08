@@ -159,6 +159,7 @@ body, html {
     transition: .3s;
     position: relative;
     z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
 }
 
 .ca-btn-primary span {
@@ -548,7 +549,7 @@ a.ca-thumb-title {
 .ca-sm-conatct-location a {
     color: #5A5D63;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 16px;
     transition: .3s;
 }
 .ca-sm-conatct-location a:hover{
@@ -853,9 +854,9 @@ header.header-2.stiky.scroll-header .ca-header-bg-2 {
 }
 
 .ca-main-menu-3 ul li > a {
-    color: #5A5D63;
-    padding: 0px 15px;
-    font-size: 16px;
+    color: #303030;
+    padding: 0px 11px;
+    font-size: 17px;
     line-height: 16px;
     display: inline-block;
     transition: .3s;
@@ -974,27 +975,28 @@ header.header-2.stiky.scroll-header .ca-header-bg-2 {
 
 /*  */
 .header-area-3 {
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 
 header.header-area-3.stiky .header-3 {
-    background: #fff;
-    padding: 20px 24px;
-    border-radius: 87px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      /* background: #fff; */
+    /* padding: 20px 24px; */
+    /* border-radius: 87px; */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
     z-index: 9;
     position: relative;
-    left: 0;
-    right: 0;
-    top: 24px;
+    /* left: 0; */
+    /* right: 0; */
+    /* top: 24px; */
+
 }
 
 header.header-area-3.stiky.scroll-header .header-3 {
     box-shadow: none;
     top: 0;
     border-radius: 0;
-    padding: 15px;
+    padding:3px 0px;
 }
 
 .header-area-3.stiky.scroll-header{
@@ -1265,6 +1267,7 @@ a.ca-sec-primary-3 span {
     text-align: center;
     font-size: 20px;
     border-radius: 50px;
+    color: #ef7c00;
 }
 
 .icon {
@@ -2317,7 +2320,7 @@ header.header-4 {
     text-align: left;
     float: right;
     color: #4A4A49;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
 }
 .ca-counter-area p {
@@ -2357,7 +2360,7 @@ header.header-4 {
 }
 .ca-about-content p {
     color: #4A4A49;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
     transition: .3s;
 }
@@ -2576,9 +2579,9 @@ header.header-4 {
 }
 
 .ca-ab-sngle-item-ic span {
-    height: 25px;
-    width: 25px;
-    background: #ef7c00;
+    height: 23px;
+    width: 23px;
+    background: #ef7c00c4;
     border-radius: 50px;
     display: block;
     line-height: 25px;
@@ -2586,6 +2589,7 @@ header.header-4 {
     text-align: center;
     color: #ffffff;
     margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
 }
 .ca-ab-sngle-item {
     display: flex;
@@ -2869,7 +2873,7 @@ header.header-4 {
 }
 .ca-service-content p {
     color: #4A4A49;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 24px;
     transition: .3s;
 }
@@ -2918,6 +2922,7 @@ header.header-4 {
     text-align: center;
     padding: 20px 20px;
     height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
 }
 
 /* .ca-ser-icon-box::after{
@@ -4277,6 +4282,7 @@ h4.ca-rat {
 .test-3-title {
     font-size: 20px;
     line-height: 20px;
+    margin-top: 10px;
 }
 
 .test-3-title a {
@@ -4317,7 +4323,7 @@ h4.ca-rat {
     margin-bottom: 16px;
 }
 .ca-ratings-3 {
-    color: #0E47A1;
+    color: #000;
     margin-right: 2px;
 }
 .ca-rating-num-3 {
@@ -4375,11 +4381,11 @@ h4.ca-rat {
     line-height: 28px;
     text-align: center;
     border-radius: 50px;
-    color: #0E47A1;
+    color: #000;
 }
 
 .ca-testimonial-3 .slick-dots .slick-active button {
-    background: #0E47A1;
+    background: #000;
 }
 
 .ca-testimonial-card-3 {
@@ -5575,7 +5581,8 @@ iframe.ca-map-4 {
 }
 .cta-title-1 {
     font-size: 44px;
-    line-height: 54px;
+    line-height: 51px;
+    color: #303030;
 }
 
 .ca-cta-area {
@@ -5602,7 +5609,7 @@ iframe.ca-map-4 {
 }
 .ca-footer-menu ul li a {
     color: #4A4A49;
-    font-size: 16px;
+    font-size: 17px;
     display: block;
     padding-bottom: 12px;
     transition: .3s;
@@ -5689,6 +5696,7 @@ iframe.ca-map-4 {
     border-radius: 50px;
     margin-right: 16px;
     transition: .3s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
 }
 .ca-footer-social ul li a:hover{
     background: #ef7c00;
@@ -7499,4 +7507,10 @@ button.ca-btn-primary.ca-btn-primary-2 span {
 }
 .home-banner {
     animation: home-banner 10s linear infinite;
+}
+.ca-about-content{
+    margin-left: 10px;
+}
+a:hover{
+    color: #ef7c00 !important;
 }

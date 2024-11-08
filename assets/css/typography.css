@@ -174,28 +174,28 @@ a:focus {
     color: #fff;
 }
 .theme-black-1{
-    color: #1B0901;
+    color: #323232;
 }
 .theme-black-bg-1{
     background: #1B0901;
 }
 .theme-black-2{
-    color: #0C0504;
+    color: #323232;
 }
 .theme-black-3{
-    color: #00060F;
+    color: #323232;
 }
 .theme-black-4{
-    color: #021013;
+    color: #505050;
 }
 .theme-black-bg-4{
     background: #021013;
 }
 .theme-black-bg-3{
-    background: #00060F;
+    background: #323232;
 }
 .theme-black-bg-2{
-    background: #0C0504;
+    background: #323232;
 }
 
 .theme-color-1{
@@ -270,7 +270,7 @@ a:focus {
     padding-top: 30px;
 }
 .pt-32{
-    padding-top: 32px;
+    padding-top: 24px;
 }
 .pt-40{
     padding-top: 40px;
