@@ -615,6 +615,10 @@
     .ca-offcanvas-logo img{
         width: 160px;
     }
+    .ca-breadcrumb-area {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
     .pt-24 {
         padding-top: 10px;
     }
@@ -813,6 +817,7 @@
     header.header-area-3.stiky .header-3 {
         top: 0px;
         border-radius: 0;
+        padding: 0px;
     }
     .header-3 .ca-offcanvas-toogle {
         border: 1px solid #02000E;
@@ -1380,7 +1385,8 @@
             display: inline-block;
         }
         .ca-breadcrumb-area {
-            padding-top: 140px;
+            padding-top: 70px;
+            padding-bottom: 70px;
         }
 
         /* about inner page */

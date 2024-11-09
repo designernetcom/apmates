@@ -118,7 +118,9 @@
 {
     margin-bottom: 30px;
 }
-
+.slick-dots li button{
+    display: none;
+}
 .slick-dots
 {
     position: absolute;

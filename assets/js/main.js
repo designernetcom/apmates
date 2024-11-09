@@ -385,8 +385,8 @@ $('.ca-slider-active-3').slick({
 
 // testimonial 3 
 $('.ca-testimonial-3').slick({
-  arrows:false,
-  dots: true,
+  arrows:true,
+  dots: false,
   centerPadding: '0px',
   slidesToShow: 3,
   slidesToScroll: 1,
