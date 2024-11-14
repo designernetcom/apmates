@@ -3798,7 +3798,10 @@ h3.ca-project-hov-title a{
     background:#ef7c00;
     transition: .3s;
 } */
-
+.product-page .text-data{
+    padding-left: 0px;
+    padding-right: 20px;
+}
 
 
 
