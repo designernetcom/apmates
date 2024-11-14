@@ -3,6 +3,7 @@
     .ca-slider-active-3 .slick-dots {
         left: -76%;
     }
+    
 }
 
 /* LG Device : 992px */
@@ -11,6 +12,7 @@
     .ml-50 {
         margin-left: 0px;
     }
+    
     .mr-50{
         margin-right: 0;
     }
@@ -631,7 +633,7 @@
         padding: 7px 20px;
     }
     .ca-testimonials {
-        margin-bottom: 40px;
+        margin-bottom: 0px;
         position: relative;
     }
     .test-3-title a{
@@ -667,7 +669,29 @@
         font-size: 17px;
         line-height: 25px;
     }
-    
+    .product-page .text-data{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .product-page {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .slick-prev {
+        left: -8px;
+    }
+    .slick-next {
+        right: -8px;
+    }
+    .ca-testimonial3 {
+        padding-top: 0px;
+    }
+    .sec-product-slider {
+        padding-bottom: 10px;
+    }
+    header.header-area-3.stiky.scroll-header .header-3 .ca-header-action-item {
+        padding-right: 55px;
+    }
 }
 @media (max-width: 1024px){
     .ca-logo img{
@@ -713,6 +737,12 @@
     .ca-contact-from textarea {
         height: 100px;
     }
+    .ca-main-menu-3 ul li > a {
+        color: #303030;
+        padding: 1px 6px;
+        font-size: 16px;
+    }
+    
 }
 @media (max-width: 767px){
     br{
@@ -990,7 +1020,7 @@
         display: none;
     }
     .ca-about-content-2.ca-sec-content-2 {
-        margin-bottom: 40px;
+        margin-bottom: 15px;
     }
     .ca-about-2-overlay {
         top: 30px;
