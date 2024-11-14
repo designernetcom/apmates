@@ -654,10 +654,28 @@
         font-weight: 700;
         font-size: 26px;
     }
+    .industry-page h2, .text-data {
+        padding-left: 0px;
+    }
+    .industry-data h2 {
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+    .ca-sec-content-3 p {
+        color: #484848;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    
 }
 @media (max-width: 1024px){
     .ca-logo img{
         width: 140px;
+        padding: 5px;
+    }
+    .ca-header-action-item{
+        padding-right: 10px;
     }
     .ca-main-menu ul li > a {
         color: #1B0901;
