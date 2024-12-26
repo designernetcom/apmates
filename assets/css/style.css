@@ -7789,6 +7789,7 @@ tbody, td, tfoot, th, thead, tr {
     font-size: 22px;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 20px;
 }
 .model-form{
     margin-top: 20px;
@@ -7864,4 +7865,15 @@ tbody, td, tfoot, th, thead, tr {
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
+}
+.text-data h6{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.text-data ul li{
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 3px 0px;
+    font-size: 18px;
+    color:#5e5e5e;
 }
